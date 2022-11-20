@@ -5,7 +5,7 @@ const {
   DB_PASSWORD,
   DB_NAME = 'DB_BCR',
   DB_HOST,
-  DB_PORT = 7882,
+  DB_PORT,
 } = process.env;
 
 module.exports = {
