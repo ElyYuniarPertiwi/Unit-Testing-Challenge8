@@ -1,9 +1,9 @@
 const {
-  DB_USER = '',
-  DB_PASSWORD = '',
-  DB_NAME = 'bcr',
-  DB_HOST = '0.0.0.0',
-  DB_PORT = '5432',
+  DB_USER,
+  DB_PASSWORD,
+  DB_NAME',
+  DB_HOST,
+  DB_PORT,
 } = process.env;
 
 module.exports = {
